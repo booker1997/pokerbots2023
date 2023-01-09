@@ -23,8 +23,10 @@ class Player(Bot):
         Returns:
         Nothing.
         '''
+        self.strong_hole = False #keep track of strong hole cards
         pass
-
+    def allocate_cards(self,my_cards):
+        pass
     def handle_new_round(self, game_state, round_state, active):
         '''
         Called when a new round starts. Called NUM_ROUNDS times.
@@ -62,7 +64,7 @@ class Player(Bot):
         #my_cards = previous_state.hands[active]  # your cards
         #opp_cards = previous_state.hands[1-active]  # opponent's cards or [] if not revealed
         pass
-
+    
     def get_action(self, game_state, round_state, active):
         '''
         Where the magic happens - your code should implement this function.
@@ -77,24 +79,26 @@ class Player(Bot):
         Your action.
         '''
         legal_actions = round_state.legal_actions()  # the actions you are allowed to take
-        #street = round_state.street  # int representing pre-flop, flop, turn, or river respectively
-        #my_cards = round_state.hands[active]  # your cards
-        #board_cards = round_state.deck[:street]  # the board cards
-        #my_pip = round_state.pips[active]  # the number of chips you have contributed to the pot this round of betting
-        #opp_pip = round_state.pips[1-active]  # the number of chips your opponent has contributed to the pot this round of betting
-        #my_stack = round_state.stacks[active]  # the number of chips you have remaining
-        #opp_stack = round_state.stacks[1-active]  # the number of chips your opponent has remaining
-        #continue_cost = opp_pip - my_pip  # the number of chips needed to stay in the pot
-        #my_contribution = STARTING_STACK - my_stack  # the number of chips you have contributed to the pot
-        #opp_contribution = STARTING_STACK - opp_stack  # the number of chips your opponent has contributed to the pot
-        #if RaiseAction in legal_actions:
-        #    min_raise, max_raise = round_state.raise_bounds()  # the smallest and largest numbers of chips for a legal bet/raise
-        #    min_cost = min_raise - my_pip  # the cost of a minimum bet/raise
-        #    max_cost = max_raise - my_pip  # the cost of a maximum bet/raise
+        street = round_state.street  # int representing pre-flop, flop, turn, or river respectively
+        my_cards = round_state.hands[active]  # your cards
+        board_cards = round_state.deck[:street]  # the board cards
+        my_pip = round_state.pips[active]  # the number of chips you have contributed to the pot this round of betting
+        opp_pip = round_state.pips[1-active]  # the number of chips your opponent has contributed to the pot this round of betting
+        my_stack = round_state.stacks[active]  # the number of chips you have remaining
+        opp_stack = round_state.stacks[1-active]  # the number of chips your opponent has remaining
+        continue_cost = opp_pip - my_pip  # the number of chips needed to stay in the pot
+        my_contribution = STARTING_STACK - my_stack  # the number of chips you have contributed to the pot
+        opp_contribution = STARTING_STACK - opp_stack  # the number of chips your opponent has contributed to the pot
+        if RaiseAction in legal_actions:
+           min_raise, max_raise = round_state.raise_bounds()  # the smallest and largest numbers of chips for a legal bet/raise
+           min_cost = min_raise - my_pip  # the cost of a minimum bet/raise
+           max_cost = max_raise - my_pip  # the cost of a maximum bet/raise
         if CheckAction in legal_actions:  # check-call
             return CheckAction()
         return CallAction()
 
-
+    def train(self):
+        # need to read the gamelog.txt file to get the scores from the players for reward
+        pass
 if __name__ == '__main__':
     run_bot(Player(), parse_args())

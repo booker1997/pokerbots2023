@@ -1,0 +1,244 @@
+6.176 MIT Pokerbots - rl vs pair
+
+Round #1, rl (0), pair (0)
+rl posts the blind of 1
+pair posts the blind of 2
+rl dealt [Qd 3c]
+pair dealt [6s Jd]
+rl calls
+pair checks
+Flop [4h 9c Jh], rl (2), pair (2)
+pair checks
+rl checks
+Turn [4h 9c Jh 3h], rl (2), pair (2)
+pair checks
+rl checks
+River [4h 9c Jh 3h 8c], rl (2), pair (2)
+pair checks
+rl checks
+rl shows [Qd 3c]
+pair shows [6s Jd]
+rl awarded -2
+pair awarded 2
+
+Round #2, pair (2), rl (-2)
+pair posts the blind of 1
+rl posts the blind of 2
+pair dealt [3h 9h]
+rl dealt [2s 5c]
+pair calls
+rl checks
+Flop [6d 6s 4c], pair (2), rl (2)
+rl checks
+pair checks
+Turn [6d 6s 4c Jd], pair (2), rl (2)
+rl checks
+pair checks
+River [6d 6s 4c Jd 5s], pair (2), rl (2)
+rl checks
+pair checks
+pair shows [3h 9h]
+rl shows [2s 5c]
+pair awarded -2
+rl awarded 2
+
+Round #3, rl (0), pair (0)
+rl posts the blind of 1
+pair posts the blind of 2
+rl dealt [Td Qc]
+pair dealt [Kd 2h]
+rl calls
+pair checks
+Flop [Ts Jc Ad], rl (2), pair (2)
+pair checks
+rl checks
+Turn [Ts Jc Ad 6s], rl (2), pair (2)
+pair checks
+rl checks
+River [Ts Jc Ad 6s 5s], rl (2), pair (2)
+pair checks
+rl checks
+rl shows [Td Qc]
+pair shows [Kd 2h]
+rl awarded 2
+pair awarded -2
+
+Round #4, pair (-2), rl (2)
+pair posts the blind of 1
+rl posts the blind of 2
+pair dealt [Kh 9s]
+rl dealt [8s Tc]
+pair calls
+rl checks
+Flop [8c 4d 4h], pair (2), rl (2)
+rl checks
+pair checks
+Turn [8c 4d 4h 7c], pair (2), rl (2)
+rl checks
+pair checks
+River [8c 4d 4h 7c 6d], pair (2), rl (2)
+rl checks
+pair checks
+Run [8c 4d 4h 7c 6d 5h], pair (2), rl (2)
+rl checks
+pair checks
+Run [8c 4d 4h 7c 6d 5h Td], pair (2), rl (2)
+rl checks
+pair checks
+Run [8c 4d 4h 7c 6d 5h Td 3c], pair (2), rl (2)
+rl checks
+pair checks
+pair shows [Kh 9s]
+rl shows [8s Tc]
+pair awarded 2
+rl awarded -2
+
+Round #5, rl (0), pair (0)
+rl posts the blind of 1
+pair posts the blind of 2
+rl dealt [Jc Ts]
+pair dealt [7d 5h]
+rl calls
+pair checks
+Flop [Qs 5s 6d], rl (2), pair (2)
+pair checks
+rl checks
+Turn [Qs 5s 6d 2s], rl (2), pair (2)
+pair checks
+rl checks
+River [Qs 5s 6d 2s As], rl (2), pair (2)
+pair checks
+rl checks
+rl shows [Jc Ts]
+pair shows [7d 5h]
+rl awarded 2
+pair awarded -2
+
+Round #6, pair (-2), rl (2)
+pair posts the blind of 1
+rl posts the blind of 2
+pair dealt [9c Kd]
+rl dealt [3h 6c]
+pair calls
+rl checks
+Flop [8c As Qd], pair (2), rl (2)
+rl checks
+pair checks
+Turn [8c As Qd Jc], pair (2), rl (2)
+rl checks
+pair checks
+River [8c As Qd Jc Ad], pair (2), rl (2)
+rl checks
+pair checks
+Run [8c As Qd Jc Ad 2s], pair (2), rl (2)
+rl checks
+pair checks
+pair shows [9c Kd]
+rl shows [3h 6c]
+pair awarded 2
+rl awarded -2
+
+Round #7, rl (0), pair (0)
+rl posts the blind of 1
+pair posts the blind of 2
+rl dealt [4d Kc]
+pair dealt [6s 6h]
+rl calls
+pair raises to 400
+rl calls
+Flop [4c Qc 8h], rl (400), pair (400)
+pair checks
+rl checks
+Turn [4c Qc 8h 2s], rl (400), pair (400)
+pair checks
+rl checks
+River [4c Qc 8h 2s Kh], rl (400), pair (400)
+pair checks
+rl checks
+Run [4c Qc 8h 2s Kh Ah], rl (400), pair (400)
+pair checks
+rl checks
+Run [4c Qc 8h 2s Kh Ah Qh], rl (400), pair (400)
+pair checks
+rl checks
+Run [4c Qc 8h 2s Kh Ah Qh 7c], rl (400), pair (400)
+pair checks
+rl checks
+rl shows [4d Kc]
+pair shows [6s 6h]
+rl awarded -400
+pair awarded 400
+
+Round #8, pair (400), rl (-400)
+pair posts the blind of 1
+rl posts the blind of 2
+pair dealt [4h 5c]
+rl dealt [8h Qd]
+pair calls
+rl checks
+Flop [Kd 9d Ah], pair (2), rl (2)
+rl checks
+pair checks
+Turn [Kd 9d Ah 6h], pair (2), rl (2)
+rl checks
+pair checks
+River [Kd 9d Ah 6h 5d], pair (2), rl (2)
+rl checks
+pair checks
+Run [Kd 9d Ah 6h 5d 6s], pair (2), rl (2)
+rl checks
+pair checks
+pair shows [4h 5c]
+rl shows [8h Qd]
+pair awarded 2
+rl awarded -2
+
+Round #9, rl (-402), pair (402)
+rl posts the blind of 1
+pair posts the blind of 2
+rl dealt [Td 3h]
+pair dealt [7h 3d]
+rl calls
+pair checks
+Flop [2h Kh As], rl (2), pair (2)
+pair checks
+rl checks
+Turn [2h Kh As Tc], rl (2), pair (2)
+pair checks
+rl checks
+River [2h Kh As Tc 2d], rl (2), pair (2)
+pair checks
+rl checks
+Run [2h Kh As Tc 2d 8h], rl (2), pair (2)
+pair checks
+rl checks
+Run [2h Kh As Tc 2d 8h Js], rl (2), pair (2)
+pair checks
+rl checks
+rl shows [Td 3h]
+pair shows [7h 3d]
+rl awarded 2
+pair awarded -2
+
+Round #10, pair (400), rl (-400)
+pair posts the blind of 1
+rl posts the blind of 2
+pair dealt [9h Kd]
+rl dealt [3h 4h]
+pair calls
+rl checks
+Flop [Qh 5d 3s], pair (2), rl (2)
+rl checks
+pair checks
+Turn [Qh 5d 3s Ac], pair (2), rl (2)
+rl checks
+pair checks
+River [Qh 5d 3s Ac 3c], pair (2), rl (2)
+rl checks
+pair checks
+pair shows [9h Kd]
+rl shows [3h 4h]
+pair awarded -2
+rl awarded 2
+
+Final, rl (-398), pair (398)
